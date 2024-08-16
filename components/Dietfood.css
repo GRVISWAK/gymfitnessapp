@@ -1,0 +1,127 @@
+.dietrows{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+
+}
+.subcard{
+    padding:5px 20px 5px 20px;
+
+}
+
+.subcard ul li{
+    font-size: 17px;
+    margin-left: 3px;
+    list-style: none;
+}
+.subcard ul{
+
+    font-size: 15px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: aliceblue;
+}
+.filter-dropdown{
+    margin-top: 72px;
+    margin-left: 30px;
+
+}
+.search-filter-container{
+    display: flex;
+    justify-content: center;
+}
+.graminput{
+    padding: 10px;
+}
+.total-nutrients{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.total-nutrients ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.tothead{
+    font-size: 30px;
+    color:rgb(217, 13, 13)
+}
+.meals-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.add{
+    margin-bottom: 10px;
+    background-color: #dd6060;
+    font-size: 15px;
+}
+.add:hover{
+    background-color: #2e2222;
+}
+.meal ul li{
+    list-style: none;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+.mealbox{
+    padding:20px 20px 20px 20px;
+    background-color: #9fc2f4;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.mealbox2{
+    padding:20px 20px 20px 20px;
+    background-color: #f16868;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.mealbox2 ul li{
+    list-style: none;
+}
+.resetbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.resetbtn button{
+    background-color: black; 
+}
+.resetbtn button:hover{
+    background-color: rgb(250, 54, 6);
+}
+.typesofmeals{
+    background-color: rgb(29, 24, 24);
+    color: aliceblue;
+    padding: 3px 3px 3px 3px;
+}
+.remove{
+  font-size:14px;
+  background-color: #dd6060;
+}
+.remove:hover{
+    background-color: #e92828;
+}
+.caloriecalimg img{
+    width:40%;
+    margin-top: 10px;
+    justify-content: center;
+    transition-duration: 1s;
+}
+.caloriecalimg img:hover{
+
+    transform: scale(1.1);
+}
+.caloriecalimg{
+display: flex;
+justify-content: center;
+margin-left: 390px;
+}

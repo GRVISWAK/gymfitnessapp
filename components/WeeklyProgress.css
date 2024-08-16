@@ -1,0 +1,199 @@
+/* Add this to your existing CSS file */
+.graphs-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .graph-item {
+    width: 48%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .graph-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .graph-info {
+    margin-bottom: 20px;
+  }
+  
+  .graph {
+    position: relative;
+    height: 200px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .graph-placeholder {
+    text-align: center;
+    color: #ccc;
+  }
+  
+  .graph-placeholder-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .graph-axis {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 10px;
+  }
+  .nav-btn{
+    display:flex;
+    align-items: flex-start;
+    text-decoration: none;
+    justify-content: flex-start;
+  }
+  .backbtn{
+    font-size: 30px;
+    background-color:#fff
+  }
+  .y-axis {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-left: 10px;
+  }
+  
+  .x-axis {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  
+  .x-axis span, .y-axis span {
+    color: #999;
+  }
+  .weekly-progress {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .back-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .title {
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .date-range {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .prev-button, .next-button {
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .date {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .stat-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 22%;
+  }
+  
+  .icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .detailed-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .detailed-stat-item {
+    width: 48%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .graph {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .graph h3 {
+    margin-bottom: 20px;
+  }
+  
+  .graph-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 150px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .graph-bar {
+    width: 12%;
+    background: #ddd;
+    border-radius: 5px;
+  }
+  
+  .bar {
+    width: 100%;
+    background: #ff4d4d;
+    border-radius: 5px;
+    transition: height 0.3s ease-in-out;
+  }
+  

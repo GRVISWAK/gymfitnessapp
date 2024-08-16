@@ -1,0 +1,34 @@
+.form1signup{
+    background-color: black;
+    color:rgb(249, 252, 254);
+    justify-content: center;
+    width: 100%;
+}
+.signupp{
+    font-size: 40px;
+    color: aliceblue;
+    padding-top: 30px;
+}
+.formh2{
+    font-size: 40px;
+    color: aliceblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.btns{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.formbtn{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    background-color: rgb(146, 146, 251);
+    margin-top: 12px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(230, 11, 11, 0.19);
+}
+.formbtn:hover{
+    background-color: rgb(235, 102, 78);
+}

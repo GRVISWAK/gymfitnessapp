@@ -1,0 +1,40 @@
+.wholecardhw{
+    padding-top: 150px;
+    background-color: rgb(126, 186, 212);
+    background-image: linear-gradient(rgba(84, 77, 77, 0.7),rgba(15, 6, 3, 0.7)),url(https://i.etsystatic.com/32597141/r/il/9c9bdb/3617175597/il_794xN.3617175597_5vd9.jpg);
+    background-size: cover;
+}
+.cardrow1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 40px 40px 40px 40px;
+    margin-top: 60px;
+}
+.subcards{
+    padding: 50px 70px 50px 70px;
+    transition-duration: 1s;
+}
+.workouth2{
+    color: rgb(25, 23, 23);
+}
+.h2workoutbtn{
+    background-color: black;
+    margin-top: 10px;
+}
+.h2workoutbtn:hover{
+    background-color: brown;
+}
+.subcards:hover{
+    transform: scale(1.1);
+}
+.wholecardh1{
+    font-size: 40px;
+    text-align: center;
+}
+.wholecardhw2{
+    text-align: center;
+    margin-top: 40px;
+    font-size:60px;
+    color: rgb(250, 248, 248);
+}

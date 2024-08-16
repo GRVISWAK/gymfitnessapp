@@ -1,0 +1,84 @@
+.bmi-calculator{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    padding-right: 100px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px 80px 40px 80px;
+    font-size: 30px;
+    background-image: url("https://www.shutterstock.com/image-vector/body-mass-index-fitness-exercise-600nw-2011181516.jpg");
+    background-size: cover;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(158, 218, 246, 0.9); /* Slightly transparent white */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); /* Blur background behind the calculator */
+  }
+  
+  .bmi-calculator h2 {
+    text-align: center;
+    color: #054890; /* Bootstrap primary color */
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #141010;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .calculate-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #030a12;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .calculate-button:hover {
+    background-color: #c67865;
+    transform: translateY(-2px);
+  }
+  
+  .result {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .result h3 {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .bmi-category {
+    color: #441f1f;
+    font-size: 38px;
+
+    font-weight: bold;
+  }
+  .wholebmi{
+    margin-top: 130px;
+    
+  }

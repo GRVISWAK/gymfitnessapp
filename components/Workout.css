@@ -1,0 +1,37 @@
+.Workouts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+}
+.workouthead{
+    display:'flex';
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 40px;
+}
+.biceprow{
+    display: flex;
+    justify-content: center;
+}
+.latrow{
+    display: flex;
+    justify-content: center;
+}
+.videohead{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.subvideo{
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.workoutvideo{
+    border-radius: 30px;
+}
